@@ -44,11 +44,11 @@ btnChange7.addEventListener("click", function(event){
 });
 
 btnChange8.addEventListener("click", function(event){
-    affectMe8.className = " bg-primary";
+    affectMe8.className = " position-absolute top-50 start-100 translate-middle mb-2";
 });
 
 btnChange9.addEventListener("click", function(event){
-    affectMe9.className = " text-warning";
+    affectMe9.className = " font-fancy";
 });
 
 btnChange10.addEventListener("click", function(event){
