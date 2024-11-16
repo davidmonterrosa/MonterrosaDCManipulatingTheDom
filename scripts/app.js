@@ -16,6 +16,41 @@ let affectMe5 = document.getElementById("affectMe5");
 
 
 btnChange1.addEventListener("click", function(event){
-    // alert("Button Clicked!");
-    affectMe1.innerText = "Changed the Value to this string";
+    affectMe1.innerText = "Using JavaScript you can change the text of an element!";
+});
+
+btnChange2.addEventListener("click", function(event){
+    affectMe2.className = " bg-primary";
+});
+
+btnChange3.addEventListener("click", function(event){
+    affectMe3.className = " text-warning";
+});
+
+btnChange4.addEventListener("click", function(event){
+    affectMe4.className = " text-center";
+});
+
+btnChange5.addEventListener("click", function(event){
+    affectMe5.className = " fs-1";
+});
+
+btnChange6.addEventListener("click", function(event){
+    affectMe6.className = " order-1";
+});
+
+btnChange7.addEventListener("click", function(event){
+    affectMe7.className = " border border-4 border-success";
+});
+
+btnChange8.addEventListener("click", function(event){
+    affectMe8.className = " bg-primary";
+});
+
+btnChange9.addEventListener("click", function(event){
+    affectMe9.className = " text-warning";
+});
+
+btnChange10.addEventListener("click", function(event){
+    affectMe10.className = " text-center";
 });
