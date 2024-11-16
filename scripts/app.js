@@ -52,5 +52,5 @@ btnChange9.addEventListener("click", function(event){
 });
 
 btnChange10.addEventListener("click", function(event){
-    affectMe10.className = " text-center";
+    affectMe10.className = " heartbeat";
 });
